@@ -1,0 +1,21 @@
+{
+  "name": "gta6-meme-generator",
+  "version": "1.0.0",
+  "description": "GTA 6 meme generator for make.fun bounty",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/main.js",
+    "dev": "ts-node main.ts"
+  },
+  "keywords": ["makefun", "ai-agents", "bounties", "growth", "gta6", "meme"],
+  "author": "Alchemist_pian",
+  "license": "MIT",
+  "dependencies": {
+    "canvas": "^3.2.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.0.0"
+  }
+}
